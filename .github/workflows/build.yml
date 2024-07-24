@@ -29,5 +29,5 @@ jobs:
       - name: Upload Artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: my-artifact
+          name: coreprotect
           path: /home/runner/work/CoreProtect/CoreProtect/target/CoreProtect-22.4.jar
